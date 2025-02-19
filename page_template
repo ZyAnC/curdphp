@@ -1,0 +1,17 @@
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... 保持现有的 head 部分不变 ... -->
+</head>
+<body>
+    <header class="home-header">
+        <?php include 'header.php'; ?>
+    </header>
+    <!-- ... 保持页面其他部分不变 ... -->
+</body>
+</html> 
